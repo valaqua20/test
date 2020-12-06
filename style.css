@@ -1,0 +1,165 @@
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.background_heading {
+    z-index: 1;
+    background-attachment: fixed;
+    background-image: url('./img/nhung-buc-anh-thien-nhien-tuyet-dep-trai-dai-khap-3-mien-viet-nam201976102745.jpg'); 
+    background-size: cover; 
+    min-height: 800px;
+    width: 100%;
+}
+.navbar_main {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.img_logo {
+    height: 100px;
+}
+.navbar_items {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+}
+.bar_collapse .bar_icon {
+    display: none;
+}
+.collap {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.fas {
+    margin-right: 5px;
+    color: #fff;
+}
+.navbar_body_right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.search_form {
+    display: none;
+}
+.input_search {
+    width: 100%;
+    height: 36px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    outline: none;
+    margin-bottom: 5px;
+}
+.input_search:focus {
+    border: 1px solid #228be6;
+}
+.btn_search {
+    height: 36px;  
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0) ;
+    border: 1px solid #6a9e28;
+    color: #6a9e28;
+}
+.btn_search:focus {
+    outline: none;
+}
+.collap {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    display: none;
+}
+.sparate {
+    height: 2px;
+    background-color: #a2140d;
+    width: 50%;
+    margin: 0px auto;
+}
+.img_content {
+    position: relative;
+}
+.scrollbar {
+    position: absolute;
+    bottom: 0px;
+    overflow: hidden;
+    width: 0%;
+    left: 0;
+    right: auto;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.8);
+    text-align: center;
+    height: 45px;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-top: 12px;
+    opacity: 0.8;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.img_content:hover .scrollbar{
+    width: 100%;
+}
+.btn {
+    width: 24%;
+}
+.img_insprired {
+    overflow: hidden;
+}
+.img_of_insprired:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.img_insprired {
+    position: relative;
+}
+.content_insprired {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    bottom: 0;
+    position: absolute;
+    color: white;
+    height: 40px;
+    line-height: 40px;
+}
+.footerofusefullinks {
+    margin-bottom: 0;
+    color: #b9b9b9;
+}
+@media only screen and (max-width: 992px){
+    .nav_left {
+        flex-direction: column;
+    }
+    .navbar_items {
+        display: none;
+    }
+    .bar_collapse .bar_icon {
+        display: block;
+    }
+    .fas {
+        padding-left: 15px;
+        margin-bottom: 10px;
+    }
+    .content {
+        text-align: justify;
+    }
+    .iconoftraveltips {
+        flex-direction: column;
+    }
+    .choose_inspired {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn {
+        margin-bottom: 10px;
+        width: 80%;
+    }
+    .img_insprired {
+        margin-bottom: 12px;
+    }
+    
+}
